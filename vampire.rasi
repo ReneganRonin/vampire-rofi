@@ -1,7 +1,7 @@
 * {
     background-color:      Black;
-    border-color:          White;
-    text-color:           Red;
+    border-color:          Red;
+    text-color:           White;
     font:            "FantasqueSansMono Nerd Font 9";
 }
 
@@ -32,7 +32,10 @@ entry {
 element {
     padding: 0px 2px;
 }
+prompt {
+  text-color: White;
+}
 element selected {
     background-color: Black;
-    text-color: White;
+    text-color: Red;
 }
