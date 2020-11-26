@@ -1,5 +1,5 @@
 * {
-    background-color:      Black;
+    background-color:      rgba(0, 0, 0, 1);
     border-color:          Red;
     text-color:           White;
     font:            "FantasqueSansMono Nerd Font 9";
@@ -9,7 +9,7 @@ window {
     anchor:     north;
     location:   north;
     width:      100%;
-    padding:    4px;
+    padding:    2px;
     children:   [ horibox ];
 }
 
@@ -32,10 +32,9 @@ entry {
 element {
     padding: 0px 2px;
 }
-prompt {
-  text-color: White;
-}
 element selected {
     background-color: Black;
     text-color: Red;
+    border: 1px 1px 1px 1px;
+    
 }
